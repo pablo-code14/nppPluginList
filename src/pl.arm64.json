@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.2",
+	"version": "1.9.4",
 	"arch": "arm64",
 	"npp-plugins": [
 		{
@@ -260,6 +260,18 @@
 			"homepage": "https://github.com/npp-plugins/converter/"
 		},
 		{
+			"folder-name": "NppCrossCheck",
+			"display-name": "NppCrossCheck",
+			"version": "1.1.0.0",
+			"npp-compatible-versions": "[8.4,]",
+			"old-versions-compatibility": "[,1.0.0.0][8.5,]",
+			"id": "e14f9886e643973571480dce2dd848eaaee8f5ee121718ea1f7ad84b0c577d1e",
+			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.1.0/NppCrossCheck_arm64.zip",
+			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
+			"author": "Pablo Lopez",
+			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
+		},
+		{
 			"folder-name": "NppExport",
 			"display-name": "NppExport",
 			"version": "0.4.0.0",
@@ -272,9 +284,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.14",
-			"id": "535a9c263267601b3df50bf53371dff806baea7bacd76e237b27dcba831c31b4",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.14/NppFTP-arm64.zip",
+			"version": "0.29.15",
+			"id": "6651e83a68a2b0838a089a137984a24ffe2e39a725dedaecab384060542680ab",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.15/NppFTP-arm64.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -472,6 +484,16 @@
 			"homepage": "https://github.com/francostellari/NppPlugins"
 		},
 		{
+			"folder-name": "TreeSitterLexer",
+			"display-name": "TreeSitter",
+			"version": "1.0.0",
+			"id": "abdc416e92deeae68207e03f2b8da04378a1788e0996811c23d14758202d7df1",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.0.0/NppTreeSitter-arm64.zip",
+			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
+			"author": "Tuomas Hietanen",
+			"homepage": "https://github.com/Thorium/NppTreeSitter/"
+		},
+		{
 			"folder-name": "urlPlugin",
 			"display-name": "URL Encode/Decode Plugin",
 			"version": "1.2.0.0",
@@ -501,18 +523,6 @@
 			"description": "Speed up your code editing! Enter an abbreviation (tag), press Alt + Enter, and expand the tag into a full code snippet. You can also wrap (surround) a selection e.g. with HTML tags.\r\n- More than 1000 preset tags: HTML (elements, attributes, BootStrap, Smarty, etc.), JavaScript (jQuery), CSS, PHP, SQL (MySQL, Eloquent ORM), etc.\r\n- Automatic or custom caret (cursor) positioning\r\n- Handling new lines, indents, etc.\r\n- Variables: clipboard content, current file name, custom date/time, etc.\r\n- Customizable tags in the plugin menu; assign tags to shortcuts\r\n- Customizable tags in the toolbar\r\n- Tag suggestions (similar tags)\r\n- Easy tag addition\r\n- Multiselect support\r\n- Unicode support\r\n- Over 17 years with Notepad++, now in 64-bit version!",
 			"author": "Alexander Iljin",
 			"homepage": "https://github.com/Krazal/WebEdit"
-		},
-		{
-			"folder-name": "NppCrossCheck",
-			"display-name": "NppCrossCheck",
-			"version": "1.1.0.0",
-			"npp-compatible-versions": "[8.4,]",
-			"old-versions-compatibility": "[,1.0.0.0][8.5,]",
-			"id": "e14f9886e643973571480dce2dd848eaaee8f5ee121718ea1f7ad84b0c577d1e",
-			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.1.0/NppCrossCheck_arm64.zip",
-			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
-			"author": "Pablo Lopez",
-			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
 		}
 	]
 }

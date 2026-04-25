@@ -1,6 +1,6 @@
 {
 	"name": "npp-pluginList",
-	"version": "1.9.2",
+	"version": "1.9.4",
 	"arch": "32",
 	"npp-plugins": [
 		{
@@ -47,9 +47,9 @@
 		{
 			"folder-name": "AnotherMarkdown",
 			"display-name": "Another Markdown",
-			"version": "0.1.8",
-			"id": "df4caa6df5e5216edc6c7aa6071a2822d41f1ff1293ff9f9082bf31b85e9c9b7",
-			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.8/AnotherMarkdown-0.1.8-x86.zip",
+			"version": "0.1.11",
+			"id": "39c2cfd6e40dd390bf39aae89176dfc87a89cc22eeb97b5f673cac8219d764be",
+			"repository": "https://github.com/ezyuzin/NppAnotherMarkdown/releases/download/0.1.11/AnotherMarkdown-0.1.11-x86.zip",
 			"description": "[Requires .NET framework v4.7.2]\r\nEasiest customizable, extendable preview and edit for Markdown files",
 			"author": "Evgeny Zyuzin",
 			"homepage": "https://github.com/ezyuzin/NppAnotherMarkdown",
@@ -268,9 +268,9 @@
 		{
 			"folder-name": "CSScriptNpp",
 			"display-name": "CS-Script - C# Intellisense",
-			"version": "2.0.12.0",
-			"id": "b016c98312d54d7383477ca1948162aca8d2036ea25ff7efba39ce9fbef28177",
-			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.12.0/CSScriptNpp.2.0.12.0.x86.zip",
+			"version": "2.0.13.0",
+			"id": "f0b9a9361819ea6ae8672283ca2e745340aaaac93c78624b3503d5a26392a88e",
+			"repository": "https://github.com/oleg-shilo/cs-script.npp/releases/download/v2.0.13.0/CSScriptNpp.2.0.13.0.x86.zip",
 			"description": "CS-Script integration. Implements a real C# Intellisense solution based on CS-Script and Roslyn. Allows loading, executing modifying and debugging C# scripts in a way very similar to the Visual Studio C# projects support. This includes referencing assemblies and other scripts, code formatting, adding missing namespaces and intercepting Debug and Console output.",
 			"author": "Oleg Shilo",
 			"homepage": "https://github.com/oleg-shilo/cs-script.npp"
@@ -469,10 +469,10 @@
 		{
 			"folder-name": "NPPFSIPlugin",
 			"display-name": "F# Interactive",
-			"version": "0.2.3.2",
+			"version": "0.2.3.4",
 			"npp-compatible-versions": "[7.7,]",
-			"id": "e34fc6c36aaa8315c889dcc9ede3ec55797e67b98f82d0e1965154aca0dddeae",
-			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.2/NPPFSIPlugin_v0.2.3.2_win32.zip",
+			"id": "92b0a84a08c8adb2c1aeb88378c7edd83a87f56cc1e307440015ca8dad702812",
+			"repository": "https://github.com/rdipardo/nppFSIPlugin/releases/download/v0.2.3.4/NPPFSIPlugin_v0.2.3.4_win32.zip",
 			"description": "F# source code lexer and IPC client for F# Interactive.\r\nNote: the .NET SDK must be installed separately.",
 			"author": "Prapin Peethambaran",
 			"homepage": "https://github.com/rdipardo/nppFSIPlugin"
@@ -1071,14 +1071,26 @@
 			"homepage": "https://sourceforge.net/projects/nppcalc/"
 		},
 		{
+			"folder-name": "NppCrossCheck",
+			"display-name": "NppCrossCheck",
+			"version": "1.1.0.0",
+			"npp-compatible-versions": "[8.4,]",
+			"old-versions-compatibility": "[,1.0.0.0][8.5,]",
+			"id": "890edb79d602d66fdda8dc4d87dfbe556e0487afaac7f915f46d6fb8bbebc660",
+			"repository": "https://github.com/pablo-code14/NppCrossCheck/releases/download/v1.1.0/NppCrossCheck_x86.zip",
+			"description": "Compare two lists in the current document.\r\nPlace the two lists separated by one or more blank lines and run the plugin to cross-check their contents.",
+			"author": "Pablo Lopez",
+			"homepage": "https://github.com/pablo-code14/NppCrossCheck"
+		},
+		{
 			"folder-name": "nppcrypt",
 			"display-name": "NppCrypt",
 			"version": "1.0.1.6",
-			"id": "29a8804a88f96c8086a0b77f0181279524ce85d1ebaa4094d4a32453a3c39bf1",
-			"repository": "https://github.com/jeanpaulrichter/nppcrypt/releases/download/1.0.1.6/nppcrypt_1.0.1.6_x86.zip",
-			"description": "Encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with Base-16/32/64.",
+			"id": "af15d039e1b8da21c3650ae3f2303b9e97caeaa1faabe68e6804194393b87ec7",
+			"repository": "https://github.com/chcg/nppcrypt/releases/download/1.0.1.6/nppcrypt_1.0.1.6_x86.zip",
+			"description": "Encryption/decryption with various block ciphers, hash-algorithms, random-characters, encoding with Base-16/32/64. Recompiled from forked repo as orig https://github.com/jeanpaulrichter/nppcrypt was deleted.",
 			"author": "Jean Paul Richter",
-			"homepage": "https://github.com/jeanpaulrichter/nppcrypt"
+			"homepage": "https://github.com/chcg/nppcrypt"
 		},
 		{
 			"folder-name": "NppESPHome",
@@ -1133,9 +1145,9 @@
 		{
 			"folder-name": "NppFTP",
 			"display-name": "NppFTP",
-			"version": "0.29.14",
-			"id": "49da5eec72ca01953d46e5d0ba8ce84c843f9a14aaf05547c433ce12247f4e84",
-			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.14/NppFTP-x86.zip",
+			"version": "0.29.15",
+			"id": "e0414f9ea7409d67be72fb073fcf77ccd40acf9e893e084d94319b63c2b14099",
+			"repository": "https://github.com/ashkulz/NppFTP/releases/download/v0.29.15/NppFTP-x86.zip",
 			"description": "Allows FTP, FTPS, FTPES, and SFTP communications. Very useful for web development.",
 			"author": "ashish_kulz",
 			"homepage": "https://ashkulz.github.io/NppFTP/"
@@ -1195,9 +1207,9 @@
 		{
 			"folder-name": "NppMenuSearch",
 			"display-name": "NppMenuSearch",
-			"version": "0.9.6",
-			"id": "7FC4D9DE6A117795C90AA36DC288C13D1E1B679A5F8AB642B0220A7F69E211E8",
-			"repository": "https://sourceforge.net/projects/nppmenusearch/files/v0.9.6/NppMenuSearch_v0.9.6_x86.zip",
+			"version": "0.9.7",
+			"id": "644ffc369a2e88d495892dfd1c287ee66ce9be71c34b79d69ba327f6e3c99179",
+			"repository": "https://sourceforge.net/projects/nppmenusearch/files/v0.9.7/NppMenuSearch_v0.9.7_x86.zip",
 			"description": "Adds a text field to the toolbar for searching menu items and preference dialog options.",
 			"author": "Peter Frentrup",
 			"homepage": "https://github.com/peter-frentrup/NppMenuSearch"
@@ -1237,6 +1249,7 @@
 			"folder-name": "NppQrCode32",
 			"display-name": "NppQrCode",
 			"version": "0.0.0.3",
+			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,0.0.0.1][,8.3.3]",
 			"id": "54557a2361351f58b9822bbf927b19086338d9885431348839005f550b05d216",
 			"repository": "https://github.com/rdipardo/nppQrCode/releases/download/v0.0.0.3/NppQrCode-v0.0.0.3-win32.zip",
@@ -1393,10 +1406,11 @@
 		{
 			"folder-name": "PreviewHTML",
 			"display-name": "Preview HTML",
-			"version": "1.4.3.0",
+			"version": "1.4.4.0",
+			"npp-compatible-versions": "[8.4,]",
 			"old-versions-compatibility": "[,1.3.3.1][,8.3.3]",
-			"id": "f6bfa9344c28020727f5f3be136d6f7688ae3ab4e59ce60803dbb1d180dd8451",
-			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.3.0/PreviewHTML_v1.4.3.0_win32.zip",
+			"id": "d38a03f5204964ba4b514164c7f516d89c27b35310b3b0c7bee0a43e976c91f6",
+			"repository": "https://github.com/rdipardo/npp_preview/releases/download/v1.4.4.0/PreviewHTML_v1.4.4.0_win32.zip",
 			"description": "Preview HTML files inside a WebView2 embedded browser, or preview Markdown, AsciiDoc, etc., rendered as HTML by an external program.",
 			"author": "Martijn Coppoolse",
 			"homepage": "https://github.com/rdipardo/npp_preview"
@@ -1726,9 +1740,9 @@
 		{
 			"folder-name": "SQLinFormNpp",
 			"display-name": "SQLinForm",
-			"version": "6.25.8.28",
-			"id": "f2270b2684142016d6eb8ca79b437cd9d7112ed3cd802934dc8cb0658f54e1e8",
-			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_6.25.08.zip",
+			"version": "26.4.7.1",
+			"id": "1091c032ed247f2215dcf7adb2f670b8760fdd6a6cc6b306d38f3d2fa7250f88",
+			"repository": "https://www.sqlinform.com/npp/SQLinFormNpp_26.4.7.zip",
 			"description": "Formats plain SQL, SQL embedded in program code, SQL snippets, and SQL statements with syntax errors.\r\nHas a powerful code folding feature and formats your SQL as you Type. Supports all major DB like Oracle, DB2, SQL Server, Teradata, Netezza, MySQL, Sybase, MS Access, etc. Incorporates its own multi-DB parser engine. No additional software required.",
 			"author": "Guido Thelen",
 			"homepage": "https://www.sqlinform.com"
@@ -1852,6 +1866,16 @@
 			"description": "Provides quick translation of selected text to your language of choice. Just select the text and press Ctrl+Alt+Z. Supports multiple languages.\r\nSupports two translation engines:\r\n1) MyMemory (Free)\r\n2) BING (Free but requires registration to obtain Client ID and Secret).\r\nSee Engine Settings after installation.\r\nRequires .NET Framework 3.5.",
 			"author": "Shaleen Mishra",
 			"homepage": "https://sourceforge.net/projects/npptranslate/"
+		},
+		{
+			"folder-name": "TreeSitterLexer",
+			"display-name": "TreeSitter",
+			"version": "1.0.0",
+			"id": "27edd5e8c21e35748b3a1d6faf5f1bb98a5f893ba6c488b6a15d98eedc98eafe",
+			"repository": "https://github.com/Thorium/NppTreeSitter/releases/download/1.0.0/NppTreeSitter-x86.zip",
+			"description": "Integrate Tree-sitter to Notepad++. AST-based syntax highlighting and code folding for many languages.",
+			"author": "Tuomas Hietanen",
+			"homepage": "https://github.com/Thorium/NppTreeSitter/"
 		},
 		{
 			"folder-name": "urlPlugin",
